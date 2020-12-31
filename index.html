@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculus</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="media.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1>
+						JavaScript calculator
+					</h1>
+					<h3>
+						Be very careful
+					</h3>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="calculator">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-10 col-md-8 col-lg-4 ">
+					<div class="calculator-body">
+						<div class="clear" onclick="func_clear_all()">C</div>
+						<div class="output" id="output">0</div>
+						<div class="btn-7 digit">7</div>
+						<div class="btn-8 digit">8</div>
+						<div class="btn-9 digit">9</div>
+						<div class="btn-plus operation">+</div>
+						<div class="btn-4 digit">4</div>
+						<div class="btn-5 digit">5</div>
+						<div class="btn-6 digit">6</div>
+						<div class="btn-minus operation">-</div>
+						<div class="btn-1 digit">1</div>
+						<div class="btn-2 digit">2</div>
+						<div class="btn-3 digit">3</div>
+						<div class="btn-multiply operation">*</div>
+						<div class="btn-0 digit">0</div>
+						<div class="btn-dot" onclick="dot_clicked()">.</div>
+						<div class="btn-equal" onclick="equal_clicked()">=</div>
+						<div class="btn-devide operation">/</div>
+					</div>
+					<div id="reloading">
+						<div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="developer">
+		<h6 class="">
+			Powered by 
+			<a href="https://www.linkedin.com/in/dima-shutenko/" target="_blank"> Dima Shutenko</a>
+		</h6>
+	</section>
+<script src="jquery-3.4.1.min.js"></script>
+<script src="main.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
