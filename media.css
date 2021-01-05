@@ -14,4 +14,9 @@
 	#developer{
 		top: 90%;
 	}
+	.calculator-body div:hover:not(.output){
+		background: rgba(108,172,197,0.2);
+		cursor: pointer;
+		font-weight: 600;
+	}
 }

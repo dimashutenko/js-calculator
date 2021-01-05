@@ -51,11 +51,6 @@ h3{
 	justify-items: end;
 	font-size: 1.5em;
 }
-.calculator-body div:hover:not(.output){
-	background: rgba(108,172,197,0.2);
-	cursor: pointer;
-	font-weight: 600;
-}
 .output{
 	grid-column: 2/5;
 }
